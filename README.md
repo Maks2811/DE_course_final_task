@@ -3,7 +3,7 @@
 Технологический стек:
 Docker, Airflow, PySpark, Clickhouse, pandas.
 
-(graphics/decade_pySpark.png)
+![Пример графика](graphics/decade_pySpark.png)
 
 Исходные данные:
 Имеется csv файл с данными по зданиям и сооружениям, расположенным на территории РФ и некоторых стран бывшего СССР. 
