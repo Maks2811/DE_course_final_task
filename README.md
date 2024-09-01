@@ -64,8 +64,6 @@ description (например, "Жилой дом в Иркутске, по ад
 11. Выполняет SQL скрипт в Python, который выводит топ 25 домов, у которых площадь больше 60 кв.м (airflow)
 
 
-
-
 ## Файлы и папки в репозитории:
 ### docker-compose.yml 
 - docker-compose со следующими контейнерами: airflow, clickhouse, postgres, spark, grafana, redis. В нем прописана ссылка на файл Dockerfile.airflow 
@@ -80,6 +78,6 @@ Dockerfile.airflow -  файл с  кастомным образом airflow с 
 ### graphics/
 - папка с графиками, полученными в результате отработки main_spark.py и main_pandas.py.
 
-### Пример аналитического графика, создаваемого скриптом:
+  ### Пример аналитического графика, создаваемого скриптом:
 ![Пример графика](graphics/decade_pySpark.png)
 
