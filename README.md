@@ -3,6 +3,7 @@
 Технологический стек:
 Docker, Airflow, PySpark, Clickhouse, pandas.
 
+(graphics/decade_pySpark.png)
 
 Исходные данные:
 Имеется csv файл с данными по зданиям и сооружениям, расположенным на территории РФ и некоторых стран бывшего СССР. 
@@ -83,5 +84,5 @@ bonus/main_pandas.py - единый DAG - файл, в котором выпол
 
 graphics/ - папка с графиками, полученными в результате отработки main_spark.py и main_pandas.py.
 
-(graphics/decade_pySpark.png)
+
 
