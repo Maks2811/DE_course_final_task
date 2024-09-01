@@ -1,7 +1,7 @@
 # Загрузка, очистка, анализ данных, построение графиков с помощью библиотек Pyspark/pandas в среде Airflow c дальнейшей выгрузкой в БД Clickhouse
 
 ## Технологический стек:
-Docker, Airflow, PySpark, Clickhouse, pandas.
+Docker, Airflow, PySpark, Clickhouse, pandas. <br>
 Использование технологии docker-compose позволяет легко и быстро развернуть всю необходимую в рамках данного проекта инфраструктуру для автоматизации процесса обработки данных.
 
 
@@ -79,7 +79,7 @@ Dockerfile.airflow -  файл с  кастомным образом airflow с 
 
 ### graphics/
 - папка с графиками, полученными в результате отработки main_spark.py и main_pandas.py.
-
+<br>
 ### Пример аналитического графика, создаваемого скриптом:
 ![Пример графика](graphics/decade_pySpark.png)
 
