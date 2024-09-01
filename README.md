@@ -1,4 +1,4 @@
-# DE_course_final_task
+## Загрузка, очистка, анализ данных, построение графиков с помощью библиотек Pyspark/pandas в среде Airflow c дальнейшей выгрузкой в БД Clickhouse
 
 # Технологический стек:
 Docker, Airflow, PySpark, Clickhouse, pandas.
